@@ -1,4 +1,5 @@
 *.json
 /__pycache__
 models/__pycache__
+web_dynamic/__pycache__
 models/engine/__pycache__
