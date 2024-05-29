@@ -64,7 +64,7 @@ $(document).ready(function() {
                   $("<div>").addClass("max_guest").text(place.max_guest).appendTo(info);
                   $("<div>").addClass("number_rooms").text(place.number_rooms).appendTo(info);
                   $("<div>").addClass("number_bathrooms").text(place.number_bathrooms).appendTo(info);
-                  let description = $("<div>").addClass("description").text(place.description).appendTo(article);
+                  let description = $("<div>").addClass("description").html(place.description).appendTo(article);
               }
           },
           error: function(error) {
